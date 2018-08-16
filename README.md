@@ -1,10 +1,12 @@
 ## RSKImageCropper [![Build Status](https://travis-ci.org/ruslanskorb/RSKImageCropper.svg)](https://travis-ci.org/ruslanskorb/RSKImageCropper) [![CocoaPods](https://img.shields.io/cocoapods/dt/RSKImageCropper.svg?maxAge=3600)](https://cocoapods.org/pods/RSKImageCropper) [![Coverage Status](https://coveralls.io/repos/ruslanskorb/RSKImageCropper/badge.svg)](https://coveralls.io/r/ruslanskorb/RSKImageCropper) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/ruslanskorb/RSKImageCropper)
 
-<p align="center">
-	<img src="Screenshot.png" alt="Sample">
-</p>
+<div style="text-align: center;">
+	<img src="Screenshot1.jpg" alt="Sample">
+	<img src="Screenshot2.jpg" alt="Sample">
+</div>
 
-An image cropper for iOS like in the Contacts app with support for landscape orientation.
+An image cropper for iOS like in the Contacts app with support for landscape orientation and rotation.
+This fork have rotate button added by default. It rotates picture 90 degrees angle.
 
 ## Installation
 *RSKImageCropper requires iOS 6.0 or later.*
@@ -182,13 +184,20 @@ Then implement the data source functions.
 Build and run the `RSKImageCropperExample` project in Xcode to see `RSKImageCropper` in action.
 Have fun. Fork and send pull requests. Figure out hooks for customization.
 
-## Contact
+## Contact - original RSKIMage Cropper
 
 Ruslan Skorb
 
 - http://github.com/ruslanskorb
 - http://twitter.com/ruslanskorb
 - ruslan.skorb@gmail.com
+
+## Contact - fork of original RSKIMage Cropper
+
+Armin Omanovic
+
+- http://github.com/omanosoft
+- armin@omanosoft.com
 
 ## License
 
